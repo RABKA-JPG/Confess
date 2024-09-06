@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="confess-img" src="Stiker 28.gif" alt="Kucing Konfess">
+        <h1>Untuk Mba Tiara</h1>
+        <p>Halo Ka Tiara, aku mau bilang sesuatu deh, mau lihat?</p>
+        <button id="yesButton">Mau</button>
+        <button id="noButton">Gak</button>
+    </div>
+
+    <!-- Reusable Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p id="modal-message">Apakah kamu yakin ingin melihat pesan ini?</p>
+            <button id="modalYes" class="modal-btn">Yes</button>
+            <button id="modalCancel" class="modal-btn">Cancel</button>
+        </div>
+    </div>
+
+    <audio id="myAudio">
+        <source src="lagucinta.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
